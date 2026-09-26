@@ -45,7 +45,7 @@ The project focuses on building a real-world listing platform while learning and
 ## 🚀 Getting Started
 
 ```bash
-git clone <your-repository-url>
+git clone https://github.com/ATOrile098/Wonderlust.git
 cd Wonderlust
 npm install
 ```
