@@ -25,13 +25,18 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="/css/rating.css" />
+
+    <link
+      href="https://api.mapbox.com/mapbox-gl-js/v3.33.0/mapbox-gl.css"
+      rel="stylesheet"
+    />
+    <script src="https://api.mapbox.com/mapbox-gl-js/v3.33.0/mapbox-gl.js"></script>
   </head>
   <body>
     <%- include("../includes/navbar.ejs") %>
 
     <div class="container">
-      <%- include("../includes/flash.ejs") %> 
-      <%- body %>
+      <%- include("../includes/flash.ejs") %> <%- body %>
     </div>
 
     <%- include("../includes/footer.ejs") %>
